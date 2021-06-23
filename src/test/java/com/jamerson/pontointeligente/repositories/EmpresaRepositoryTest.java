@@ -2,7 +2,7 @@ package com.jamerson.pontointeligente.repositories;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.After;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +28,7 @@ public class EmpresaRepositoryTest {
 		this.empresaRepository.save(empresa);
 	}
 	
-	@After
+	@AfterEach
     public final void tearDown() { 
 		this.empresaRepository.deleteAll();
 	}
