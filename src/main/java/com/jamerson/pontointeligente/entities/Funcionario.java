@@ -201,6 +201,6 @@ public class Funcionario implements Serializable {
 		return "Funcionario [id=" + id + ", name=" + name + ", email=" + email + ", senha=" + senha + ", cpf=" + cpf
 				+ ", valorHora=" + valorHora + ", qtdHorasTrabalhoDia=" + qtdHorasTrabalhoDia + ", qtdHorasAlmoco="
 				+ qtdHorasAlmoco + ", perfil=" + perfil + ", dataCriacao=" + dataCriacao + ", dataAtualizacao="
-				+ dataAtualizacao + ", empresa=" + empresa + ", lancamentos=" + lancamentos + "]";
+				+ dataAtualizacao + ", lancamentos=" + lancamentos + "]";
 	}
 }
